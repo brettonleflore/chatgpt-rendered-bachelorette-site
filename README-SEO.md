@@ -26,3 +26,12 @@ After deployment:
 5. Earn relevant backlinks/mentions from local hospitality, wedding, travel and New Orleans resources.
 
 No on-page SEO implementation can guarantee a #1 Google ranking. Rankings depend on competition, links/mentions, search intent, content quality, site history and Google systems.
+
+V17 additions:
+- Dedicated New Orleans luxury hotel landing page
+- Hotel shortlist: Four Seasons, Ritz-Carlton, Windsor Court, Maison de la Luz, Hotel Saint Vincent
+- Expanded where-to-stay FAQ and structured data
+- Added luxury-hotel topic to internal linking and sitemap
+- Added uploaded watercolor bayou + alligator art
+- Animated the alligator as a subtle swimming scene with ripples
+- Animation pauses offscreen and respects reduced-motion preferences
