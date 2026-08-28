@@ -18,3 +18,13 @@ if (toggle && nav) {
     if (event.key === 'Escape') closeMenu();
   });
 }
+
+
+// Pause decorative hero animation when it is offscreen to reduce paint work on mobile.
+const gatorStage = document.querySelector('.gator-stage');
+if (gatorStage && 'IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(([entry]) => {
+    gatorStage.classList.toggle('is-offscreen', !entry.isIntersecting);
+  }, { rootMargin: '150px' });
+  observer.observe(gatorStage);
+}

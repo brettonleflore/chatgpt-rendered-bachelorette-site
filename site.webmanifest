@@ -1,0 +1,16 @@
+{
+  "name": "The New Orleans Bachelorette Guide",
+  "short_name": "NOLA Bachelorette",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf8",
+  "theme_color": "#fffaf8",
+  "icons": [
+    {
+      "src": "/assets/fleur-pink.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}
